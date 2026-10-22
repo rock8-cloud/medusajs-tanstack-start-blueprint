@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "@fontsource-variable/roboto";
+@import "@fontsource-variable/montserrat";
+
+@theme {
+  --font-sans: "Roboto Variable", Roboto, Arial, Helvetica, sans-serif;
+  --font-display: "Montserrat Variable", Montserrat, ui-sans-serif, sans-serif;
+
+  /* Brand colors */
+  --color-canvas: #f4f6f8;
+  --color-surface: #ffffff;
+  --color-ink: #16262f;
+  --color-ink-soft: #55656f;
+  --color-line: #e1e7eb;
+
+  --color-brand-50: #e9f2f7;
+  --color-brand-100: #d0e4ee;
+  --color-brand-200: #a4c9db;
+  --color-brand-300: #74a9c2;
+  --color-brand-400: #4787a5;
+  --color-brand-500: #276b8a;
+  --color-brand-600: #135273;
+  --color-brand-700: #0a415d;
+  --color-brand-800: #05364e;
+  --color-brand-900: #023047;
+  --color-brand-950: #011e2e;
+
+  --color-accent: #ffb703;
+  --color-accent-strong: #f8b636;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,20 @@
+# Keep build context small and never leak local artifacts / secrets into images.
+**/node_modules
+**/.medusa
+**/dist
+**/.output
+**/.turbo
+**/.next
+.git
+.github
+.claude
+.vscode
+# Local env files — runtime env comes from the platform; storefront build args
+# come from Docker --build-arg. Never bake a local .env (localhost URLs) in.
+**/.env
+**/.env.*
+!**/.env.template
+!**/.env.example
+**/*.log
+**/.DS_Store
+scratchpad
