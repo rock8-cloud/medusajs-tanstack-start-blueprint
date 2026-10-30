@@ -28,7 +28,7 @@
     "@medusajs/caching": "2.21.2",
     "@medusajs/cli": "2.21.2",
     "@medusajs/dashboard": "2.21.2",
-    "@medusajs/draft-order": "2.21.2",
+    "@medusajs/draft-order": "2.22.1",
     "@medusajs/framework": "2.21.2",
     "@medusajs/medusa": "2.21.2",
     "@medusajs/ui": "4.2.6",
