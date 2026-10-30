@@ -5,7 +5,7 @@
     "": {
       "name": "medusa",
       "devDependencies": {
-        "@medusajs/eslint-plugin": "2.21.2",
+        "@medusajs/eslint-plugin": "2.22.1",
         "eslint": "^9.39.4",
         "jiti": "^2.7.0",
         "prettier": "^3.2.5",
@@ -31,7 +31,7 @@
         "zod": "4.2.0",
       },
       "devDependencies": {
-        "@medusajs/eslint-plugin": "2.21.2",
+        "@medusajs/eslint-plugin": "2.22.1",
         "@medusajs/test-utils": "2.21.2",
         "@swc/core": "^1.7.28",
         "@swc/jest": "^0.2.36",
@@ -530,7 +530,7 @@
 
     "@medusajs/draft-order": ["@medusajs/draft-order@2.21.2", "", { "dependencies": { "@ariakit/react": "^0.4.15", "@babel/runtime": "^7.26.10", "@hookform/resolvers": "5.5.7", "@medusajs/js-sdk": "2.21.2", "@tanstack/react-query": "5.64.2", "@uiw/react-json-view": "^2.0.0-alpha.17", "date-fns": "^3.6.0", "lodash.debounce": "^4.0.8", "lodash.isequal": "^4.5.0", "match-sorter": "^6.3.4", "radix-ui": "1.1.2", "react-hook-form": "7.83.0", "zod": "4.2.0" }, "peerDependencies": { "@medusajs/admin-sdk": "2.21.2", "@medusajs/cli": "2.21.2", "@medusajs/dashboard": "2.21.2", "@medusajs/framework": "2.21.2", "@medusajs/icons": "2.21.2", "@medusajs/test-utils": "2.21.2", "@medusajs/ui": "4.2.6", "react": "^18.3.1", "react-dom": "^18.3.1", "react-router-dom": "^6.30.4 || ^7.0.0" }, "optionalPeers": ["@medusajs/admin-sdk", "@medusajs/cli", "@medusajs/dashboard", "@medusajs/icons", "@medusajs/test-utils", "@medusajs/ui", "react", "react-dom", "react-router-dom"] }, "sha512-hR+lczZ6dNyssAhGD/CTUR5wPXOo3edEugwqQ5Iol3x9NlRwgwJeQAh0nDB6I1JHZAV3j6DVmZ65uzFMH2XCBA=="],
 
-    "@medusajs/eslint-plugin": ["@medusajs/eslint-plugin@2.21.2", "", { "dependencies": { "@typescript-eslint/parser": "^8.0.0", "@typescript-eslint/utils": "^8.0.0", "cron-parser": "^4.9.0" }, "peerDependencies": { "eslint": "^8.57.0 || ^9.0.0", "typescript": ">=4.8.0" } }, "sha512-kGxw+KKnQhnuNOpqJ6U/3jwGyeGFTbSlRWxSP2lBoa9S49GyKgWmUsU+9FD8lDfQgREiosFvCH60yns+qi6E8A=="],
+    "@medusajs/eslint-plugin": ["@medusajs/eslint-plugin@2.22.1", "", { "dependencies": { "@typescript-eslint/parser": "^8.0.0", "@typescript-eslint/utils": "^8.0.0", "cron-parser": "^4.9.0" }, "peerDependencies": { "eslint": "^8.57.0 || ^9.0.0", "typescript": ">=4.8.0" } }, "sha512-Hey1o8xuCpJNQon34jx050fhcm3zvfKj6CnkkVG03LPoNhe4KFrTQTYWvbVP1BEADe83IVOyoyjpKMvqCFrSZQ=="],
 
     "@medusajs/event-bus-local": ["@medusajs/event-bus-local@2.21.2", "", { "peerDependencies": { "@medusajs/framework": "2.21.2" } }, "sha512-pnbQzQ3GUoZTmEqcZJJyai4jsjfLc9pKK5yHGS5AIzjy6klXaymvsl0k1GFV8BrcS7fVz2h83VThTWqEz4QGHA=="],
 
