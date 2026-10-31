@@ -10,7 +10,7 @@
 # assets and the SSR fetch handler.
 
 FROM node:24-bookworm-slim AS base
-COPY --from=oven/bun:1.3.14 /usr/local/bin/bun /usr/local/bin/bun
+COPY --from=oven/bun:1.4.4 /usr/local/bin/bun /usr/local/bin/bun
 WORKDIR /app
 
 # ---- build ----
