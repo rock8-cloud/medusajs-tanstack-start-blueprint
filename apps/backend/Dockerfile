@@ -6,7 +6,7 @@
 # Nothing here needs a secret: DATABASE_URL, REDIS_URL etc. are read at runtime.
 
 FROM node:24-bookworm-slim AS base
-COPY --from=oven/bun:1.3.14 /usr/local/bin/bun /usr/local/bin/bun
+COPY --from=oven/bun:1.4.4 /usr/local/bin/bun /usr/local/bin/bun
 WORKDIR /app
 
 # ---- build: install deps + `medusa build` -> apps/backend/.medusa/server ----
