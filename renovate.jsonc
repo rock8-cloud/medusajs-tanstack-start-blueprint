@@ -47,5 +47,13 @@
       "automerge": false,
       "platformAutomerge": false,
     },
+    {
+      "description": "Keep Medusa package updates together for coordinated upgrades",
+      "matchPackageNames": ["@medusajs/**"],
+      "groupName": "Medusa packages",
+      "separateMajorMinor": false,
+      "automerge": false,
+      "platformAutomerge": false,
+    },
   ],
 }
