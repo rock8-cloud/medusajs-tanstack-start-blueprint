@@ -16,7 +16,7 @@
       "name": "@dtc/backend",
       "version": "0.0.1",
       "dependencies": {
-        "@medusajs/admin-sdk": "2.21.2",
+        "@medusajs/admin-sdk": "2.22.1",
         "@medusajs/admin-shared": "2.21.2",
         "@medusajs/caching": "2.21.2",
         "@medusajs/cli": "2.21.2",
@@ -482,7 +482,7 @@
 
     "@medusajs/admin-bundler": ["@medusajs/admin-bundler@2.21.2", "", { "dependencies": { "@medusajs/admin-shared": "2.21.2", "@medusajs/admin-vite-plugin": "2.21.2", "@medusajs/dashboard": "2.21.2", "@vitejs/plugin-react": "^5.2.0", "autoprefixer": "^10.4.19", "compression": "^1.8.0", "express": "^4.21.0", "get-port": "^5.1.1", "glob": "13.0.6", "outdent": "^0.8.0", "postcss": "^8.5.10", "tailwindcss": "^3.4.3", "vite": "^7.3.6" } }, "sha512-6GwEuMBoRSxsPgj1P5cJnXtq9pYZTcS35TH9Y72U/XNVgpoQEk2gsOjNaDZdZCB21HKoh6sMMEbe3CW3c9zGHw=="],
 
-    "@medusajs/admin-sdk": ["@medusajs/admin-sdk@2.21.2", "", { "dependencies": { "@medusajs/admin-shared": "2.21.2", "zod": "4.2.0" } }, "sha512-fx3cXsBj/tLQc5eLC2Xn+7sH/Yrn/pJOxP0Mye+Isr88cmHWeEceGpEY+agIQ5+ZqEIuAZYrCS57ciSf2LSabg=="],
+    "@medusajs/admin-sdk": ["@medusajs/admin-sdk@2.22.1", "", { "dependencies": { "@medusajs/admin-shared": "2.22.1", "zod": "4.2.0" } }, "sha512-T7oV/JatLdTA9T35dqd8nGzXWou7xj90U5OgpkbdXf5lT42EgGqpMevglvPAGWtcTg7v6U2c3ubTXmkVzdhGZg=="],
 
     "@medusajs/admin-shared": ["@medusajs/admin-shared@2.21.2", "", {}, "sha512-Kjlzq1u/EUyUQmALcsSFDUR7KIg0p3aFJZ6EamZxA6+6vtVmVv+q6kVvNPj4rIjQmYQ64LIHn+gJEUdMc+YgEw=="],
 
@@ -2965,6 +2965,8 @@
     "@medusajs/admin-bundler/tailwindcss": ["tailwindcss@3.4.19", "", { "dependencies": { "@alloc/quick-lru": "^5.2.0", "arg": "^5.0.2", "chokidar": "^3.6.0", "didyoumean": "^1.2.2", "dlv": "^1.1.3", "fast-glob": "^3.3.2", "glob-parent": "^6.0.2", "is-glob": "^4.0.3", "jiti": "^1.21.7", "lilconfig": "^3.1.3", "micromatch": "^4.0.8", "normalize-path": "^3.0.0", "object-hash": "^3.0.0", "picocolors": "^1.1.1", "postcss": "^8.4.47", "postcss-import": "^15.1.0", "postcss-js": "^4.0.1", "postcss-load-config": "^4.0.2 || ^5.0 || ^6.0", "postcss-nested": "^6.2.0", "postcss-selector-parser": "^6.1.2", "resolve": "^1.22.8", "sucrase": "^3.35.0" }, "bin": { "tailwind": "lib/cli.js", "tailwindcss": "lib/cli.js" } }, "sha512-3ofp+LL8E+pK/JuPLPggVAIaEuhvIz4qNcf3nA1Xn2o/7fb7s/TYpHhwGDv1ZU3PkBluUVaF8PyCHcm48cKLWQ=="],
 
     "@medusajs/admin-bundler/vite": ["vite@7.3.6", "", { "dependencies": { "esbuild": "^0.27.0 || ^0.28.0", "fdir": "^6.5.0", "picomatch": "^4.0.3", "postcss": "^8.5.6", "rollup": "^4.43.0", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "jiti": ">=1.21.0", "less": "^4.0.0", "lightningcss": "^1.21.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "jiti", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-4XP60spRGjSZFf1qYH+dJIkK2znL3zQfl9KkOV9MkkRR/3Dls0dxaBsQPTloEc5BLXWPL9vsOxopxyKoMmDueg=="],
+
+    "@medusajs/admin-sdk/@medusajs/admin-shared": ["@medusajs/admin-shared@2.22.1", "", {}, "sha512-qrs5frQNNWM2nTFnNg2YYgUkcvziyWzJWe8VOCxwMEbR5oTy9XEBc6pTmU3ErPSsrCqX176JsR0fPeDl5TrQ2A=="],
 
     "@medusajs/cli/fs-extra": ["fs-extra@11.3.6", "", { "dependencies": { "graceful-fs": "^4.2.0", "jsonfile": "^6.0.1", "universalify": "^2.0.0" } }, "sha512-w8ZNZr2mKIc7qeNaQ9AVPT1+iFaI+Avd4xudVOvdDJ8VytREi1Ft5Ih7hd9jjehod8vAM5GMsfQ/TpPf4EyoEA=="],
 
