@@ -34,6 +34,8 @@
   ],
   "overrides": {
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "proxy-addr": "^2.0.8",
+    "qs": "^6.16.1"
   }
 }
