@@ -9,7 +9,7 @@
 # dist/{client,server}; server.mjs is a tiny Node adapter that serves the client
 # assets and the SSR fetch handler.
 
-FROM node:24-bookworm-slim AS base
+FROM node:26-bookworm-slim AS base
 COPY --from=oven/bun:1.4.4 /usr/local/bin/bun /usr/local/bin/bun
 WORKDIR /app
 
