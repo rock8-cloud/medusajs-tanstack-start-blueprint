@@ -5,7 +5,7 @@
 # Node runtime (Medusa is a Node CLI) + bun for installs pinned by bun.lock.
 # Nothing here needs a secret: DATABASE_URL, REDIS_URL etc. are read at runtime.
 
-FROM node:24-bookworm-slim AS base
+FROM node:26-bookworm-slim AS base
 COPY --from=oven/bun:1.4.4 /usr/local/bin/bun /usr/local/bin/bun
 WORKDIR /app
 
